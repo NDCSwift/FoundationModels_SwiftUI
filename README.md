@@ -15,9 +15,11 @@ SmartNotes hooks into Apple Intelligence's on-device language model via the `Fou
 - **Live streaming UI** — partial results update the view as the model generates, using `.animation(.smooth)` for a polished feel
 - **Zero dependencies, zero cost** — runs on any Apple Intelligence-capable device without an API key or backend
 
-## 📺 From the NoahDoesCoding YouTube Channel
+## 📺 Watch on YouTube
 
-This project is a companion to a tutorial on [@NoahDoesCoding97](https://www.youtube.com/@NoahDoesCoding97). Subscribe for weekly SwiftUI tutorials.
+[![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch%20the%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtu.be/GuOzhtChwT8)
+
+> This project was built for the [NoahDoesCoding YouTube channel](https://www.youtube.com/@NoahDoesCoding97). Subscribe for weekly SwiftUI tutorials.
 
 ---
 
@@ -58,4 +60,4 @@ Requires a device with Apple Intelligence enabled (iPhone 15 Pro / iPhone 16 or 
 - iOS 18.1+
 - Apple Intelligence-capable device (iPhone 15 Pro or later)
 
-📺 [Watch the guide on YouTube](https://www.youtube.com/@NoahDoesCoding97)
+📺 [Watch the guide on YouTube](https://youtu.be/GuOzhtChwT8)
