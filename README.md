@@ -1,39 +1,61 @@
+# 🧠 SmartNotes — Apple FoundationModels + SwiftUI
 
-# 🚀 Getting Started
+A SwiftUI notes app that uses Apple's on-device `FoundationModels` framework to stream AI-generated analysis of your notes — tags, action items, and a plain-English summary — entirely on-device with no API keys or internet required.
 
-## 1. Clone the Repo
+---
+
+## 🤔 What this is
+
+SmartNotes hooks into Apple Intelligence's on-device language model via the `FoundationModels` framework. You type or paste a note, hit "Analyze", and the app streams back structured output — topic tags, extracted action items, and a summary — as the model generates it. No server, no cost, no data leaving the device.
+
+## ✅ Why you'd use it
+
+- **Apple Intelligence integration from scratch** — shows `LanguageModelSession`, structured generation, and streaming in one complete example
+- **Structured output pattern** — `NoteAnalysis` uses `@Generable` to get typed tags, action items, and summary back from the model
+- **Live streaming UI** — partial results update the view as the model generates, using `.animation(.smooth)` for a polished feel
+- **Zero dependencies, zero cost** — runs on any Apple Intelligence-capable device without an API key or backend
+
+## 📺 From the NoahDoesCoding YouTube Channel
+
+This project is a companion to a tutorial on [@NoahDoesCoding97](https://www.youtube.com/@NoahDoesCoding97). Subscribe for weekly SwiftUI tutorials.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
 ```bash
-git clone https://github.com/NDCSwift/REPO-NAME.git
-cd REPO-NAME
+git clone https://github.com/NDCSwift/FoundationModels_SwiftUI.git
+cd FoundationModels_SwiftUI
 ```
-Or select “Clone Git Repository…” when Xcode launches.
+Or select "Clone Git Repository…" when Xcode launches.
 
-⸻
+### 2. Open in Xcode
+- Double-click `SmartNotes_SwiftUI.xcodeproj`.
 
-## 2. Open in Xcode
-	•	Double-click the .xcodeproj or .xcworkspace.
+### 3. Set Your Development Team
 
-⸻
+In Xcode, navigate to: **TARGET → Signing & Capabilities → Team**
+- Select your personal or organizational team.
 
-## 3. Set Your Development Team
+### 4. Update the Bundle Identifier
+- Change `com.example.MyApp` to a unique identifier.
 
-In Xcode, navigate to:
+### 5. Run
+Requires a device with Apple Intelligence enabled (iPhone 15 Pro / iPhone 16 or later, iOS 18.1+).
 
-TARGET → Signing & Capabilities → Team
-	
-    •	Select your personal or organizational team.
+---
 
-⸻
+## 🛠️ Notes
 
-## 4. Update the Bundle Identifier
-	•	Change com.example.MyApp to a unique identifier (e.g., com.yourname.MyApp).
+- Apple Intelligence must be enabled in **Settings** on the test device
+- `FoundationModels` is not available on the Simulator
+- If you see a code signing error, check that Team and Bundle ID are set
 
-⸻
+## 📦 Requirements
 
-🛠️ Notes
+- Xcode 16+
+- iOS 18.1+
+- Apple Intelligence-capable device (iPhone 15 Pro or later)
 
-	•	If you see a code signing error, check that Team and Bundle ID are set.
-	•	If building for a device, ensure your provisioning profile supports the required capabilities (Push, iCloud, etc.).
-
-📺 YouTube
-[Click here to check out the guide on YouTube](https://www.youtube.com/@NoahDoesCoding97)
+📺 [Watch the guide on YouTube](https://www.youtube.com/@NoahDoesCoding97)
