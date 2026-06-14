@@ -5,7 +5,7 @@
     //  Created by Noah Carpenter 
     //
     //  📺 YouTube: Noah Does Coding
-    //  https://www.youtube.com/@NoahDoesCoding97
+    //  https://www.youtube.com/@NoahDoesCoding
     //  Like and Subscribe for coding tutorials and fun! 💻✨
     //  Dream Big. Code Bigger 🚀
     //
@@ -126,4 +126,3 @@ struct NoteAnalysisView: View {
 #Preview {
     NoteAnalysisView(noteText: "Foundation models framework:Access to on device MML that powers apple intel - powered and bridged with SwiftUIpersonal search suggestions; create entirely new features such as generating itinerary in appDialogue on the fly Works offline Private data on devices no cost for developer or users - Built into OS Available through all iOS aside from watchOS")
 }
-
